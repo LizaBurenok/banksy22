@@ -496,37 +496,3 @@ color: #000000;
   position: relative;
   right: 40%;
 }
-
-/**footer**/
-.footer{
-  margin-top: 300px;
-}
-.footer img {
-  transform: scale(1.5);
-  position: relative;
-}
-
-.social-network span{
-  position: absolute;
-}
-
-.social-network span {
-  font-size: 12px;
-  transform: rotate(-90deg);
-}
-.social-network span:first-of-type{
-  left: -50px;
-}
-
-.social-network span:nth-child(3){
-  left: 70px;
-}
-
-.social-network span:nth-child(4){
-  left: 130px;
-}
-
-.social-network span:nth-child(5){
-  left: 170px;
-  width: 50%;
-}
