@@ -3,9 +3,10 @@ html {
 }
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
 @font-face {
-  font-family: "RUSBoycott", "RUSBoycott";
-  src: url(8953.ttf);
+  font-family: "RUSBoycott", 'PT Sans Narrow';
+  src: url(font/8953.ttf);
 }
 
 body {
