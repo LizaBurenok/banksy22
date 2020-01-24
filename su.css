@@ -1,0 +1,520 @@
+html{
+  width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url(./backgr.png);
+}
+
+div, p, h1, h2, h3, h4, h5, h6, a{
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-size: 44px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.header_question img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header__btn {
+  transform: scale(5);
+  position: relative;
+}
+
+.header__question{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin: 0 auto;
+}
+
+.header__btn {
+transform: scale(7);
+position: relative;
+}
+
+.header__part-1,
+.header__part-2,
+.header__part-3,
+.header__part-4,
+.header__part-5,
+.header__part-6,
+.header__part-7,
+.header__part-8{
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+}
+
+.header__part-1{
+top: 20%;
+left: 90%;
+}
+
+.header__part-2 {
+top: 27%;
+right: 90%;
+}
+
+.header__part-3{
+top: 45%;
+left: 80%;
+}
+
+.header__part-4{
+top: 25%;
+right: 120%;
+}
+
+.header__part-5{
+top: -10%;
+right: 200%;
+}
+
+.header__part-6{
+bottom: 20px;
+left: 90px;
+}
+
+.header__part-8{
+top: -200px;
+left: 30px;
+}
+
+.header__hidden_parts{
+display: none;
+}
+
+.header__question:hover  .header__hidden_parts{
+  display: block;
+  animation: lights linear 2s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lights {
+    0%{
+        color: red;
+    }
+    50%{
+        color: black;
+    }
+    100% {color: white;}
+}
+
+.header__question a {
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+/*AUTHOR / BIOGRAPHY*/
+.author {
+  margin-top: 600px;/**НЕ УВЕРЕНА НАСЧЕТ ИЗМЕРЕНИЙ**/
+}
+
+.author h1{
+font-family: RUSBoycott;
+font-weight: normal;
+font-size: 48px;
+line-height: 74px;
+text-transform: uppercase;
+height: 57px;
+margin-bottom: 40px;
+padding: 32px 68px;
+text-align: left;
+margin-bottom: 24px;
+}
+
+.author h1,
+.biography h2,
+.artist_career h2{
+  height: 46px;
+  font-family: RUSBoycott;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 46px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 24px;
+  margin-top: 51px;
+}
+
+.biography,
+.artist,
+.artist_career{
+  width: 80%;
+  text-align: center;
+}
+
+.artist h2 {
+width: 126px;
+height: 37px;
+left: 32px;
+font-family: RUSBoycott;
+font-weight: normal;
+font-size: 24px;
+line-height: 37px;
+text-transform: uppercase;
+}
+
+.biography {
+  margin-bottom: 24px;
+}
+
+/****/
+
+.wrapper {
+  margin-top: 600px;
+}
+.block-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.block-1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    left: 10%;
+    top: 70px;
+}
+
+.text{
+  width: 55%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.text h2{
+  font-size: 50px;
+  line-height: 140%;
+  text-align: left;
+  height: 72px;
+  left: 97px;
+
+  text-transform: uppercase;
+  font-family: RUSBoycott;
+  margin-top: -50px;
+}
+.text p {
+  padding-top: 80px;
+  font-size: 40px;
+  text-align: left;
+}
+
+/** FACTS**/
+.facts {
+  width: 55%;
+  margin: 100px auto;
+}
+
+.facts p {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.facts p:before {
+  content: "?";
+  font-family: "RUSBoycott";
+  text-transform: uppercase;
+  font-size: 50px;
+  position: absolute;
+  left: -30px;
+  top: -20px;
+}
+
+/*MENU*/
+.works {
+  position: relative;
+}
+
+.works__p1,
+.works__p2,
+.works__p3,
+.works__p4,
+.works__p5,
+.works__p6 {
+  position: relative;
+  font-family: RUSBoycott;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100px;
+}
+
+.works__p1,
+.works__p2,
+.works__p3,
+.works__p4,
+.works__p5,
+.works__p6, a{
+  width: 50px;
+  height: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.works__p1{
+  left: -30%;
+  top: -10%;
+  color: #000;
+}
+
+.works__p2{
+  left: -20%;
+  top: 30%;
+}
+.works__p3{
+  left: 5%;
+}
+.works__p4{
+left: 40%;
+background-color: pink;
+}
+.works__p5{
+
+}
+.works__p6{
+
+}
+
+.works__header {
+height: 89px;
+text-align: left;
+font-family: RUSBoycott;
+font-weight: normal;
+font-size: 70px;
+line-height: 89px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #000000;
+padding: 32px 68px;
+}
+/*
+.works__p1 {
+z-index: 1;
+position: relative;
+width: 49px;
+height: 19px;
+left: 32px;
+top: 2167px;
+z-index: 1;
+
+font-family: RUSBoycott;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #FFFFFA;
+
+}
+.works__p2 {
+  position: relative;
+  width: 39px;
+  height: 19px;
+  left: 76px;
+  top: 2208px;
+  z-index: 1;
+  font-family: RUSBoycott;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFA;
+}
+
+.works__p3 {
+  position: relative;
+  width: 39px;
+  height: 19px;
+  left: 120px;
+  top: 2167px;
+  z-index: 1;
+  font-family: RUSBoycott;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFA;
+}
+.works__p4 {
+position: relative;
+width: 39px;
+height: 19px;
+left: 175px;
+top: 2208px;
+z-index: 1;
+font-family: RUSBoycott;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #FFFFFA;
+
+
+}
+.works__p5 {
+  position: relative;
+  width: 39px;
+  height: 19px;
+  left: 214px;
+  top: 2167px;
+z-index: 1;
+  font-family: RUSBoycott;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #FFFFFA;
+
+}
+
+.works__p6{
+  position: relative;
+  width: 39px;
+  height: 19px;
+  left: 260px;
+  top: 2208px;
+z-index: 1;
+  font-family: RUSBoycott;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFA;
+}
+.works__back {
+position: absolute;
+width: 600px;
+height: 379px;
+top: 2037px;
+}
+.works__header {
+  position: absolute;
+width: 193px;
+height: 89px;
+left: 27px;
+top: 1981px;
+font-family: RUSBoycott;
+font-style: normal;
+font-weight: normal;
+font-size: 58px;
+line-height: 89px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #000000;
+}
+*/
+
+.member::before{
+    content:"";
+    display: inline-block;
+    background-size: 80px 150px;
+    height: 150px;
+    width: 80px;
+    background-image: url(./spray1.png);
+}
+
+.contact {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contact h2{
+  width: 100%;
+  height: 89px;
+  text-align: left;
+  font-family: RUSBoycott;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 89px;
+  text-transform: uppercase;
+  padding: 59px 28px 88px 144px;
+}
+
+.member {
+  width: 70%;
+  display: flex;
+}
+
+.info{
+  width: 40%;
+}
+
+.info p{
+  font-size: 44px;
+  text-align: left;
+  font-family: PT Sans Narrow;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 140%;
+  text-transform: lowercase;
+}
+
+.info h3 {
+  font-family: RUSBoycott;
+  font-weight: normal;
+  width: 20%;
+  font-size: 45px;
+  line-height: 89px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  position: relative;
+  right: 40%;
+}
+
+/**footer**/
+.footer{
+  margin-top: 300px;
+}
+.footer img {
+  transform: scale(1.5);
+  position: relative;
+}
+
+.social-network span{
+  position: absolute;
+}
+
+.social-network span {
+  font-size: 12px;
+  transform: rotate(-90deg);
+}
+.social-network span:first-of-type{
+  left: -50px;
+}
+
+.social-network span:nth-child(3){
+  left: 70px;
+}
+
+.social-network span:nth-child(4){
+  left: 130px;
+}
+
+.social-network span:nth-child(5){
+  left: 170px;
+  width: 50%;
+}

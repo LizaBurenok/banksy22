@@ -1,0 +1,55 @@
+
+body{
+  width: 900px;
+  background-color: yellow;
+}
+
+.block img {
+    background-image: url(./spot.png);
+}
+
+.block-1{
+    display: flex;
+    justify-content: center;
+}
+
+.block-1 a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    position: relative;
+    top: 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+    text-align: left;
+}
+
+.text p {
+  width: 202px;
+  height: 133px;
+}
+
+/** FACTS**/
+.facts {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.facts p {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.facts p:before {
+  content: "?";
+  font-family: "RUSBoycott";
+  text-transform: uppercase;
+  font-size: 50px;
+  position: absolute;
+  left: -30px;
+  top: -20px;
+}
