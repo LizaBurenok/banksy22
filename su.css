@@ -6,7 +6,7 @@ html {
 
 @font-face {
   font-family: "RUSBoycott", 'PT Sans Narrow';
-  src: url(font/8953.ttf);
+  src: url("font/8953.ttf");
 }
 
 body {
