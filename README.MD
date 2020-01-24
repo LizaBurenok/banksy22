@@ -10,3 +10,4 @@
 
 ## Ссылка на figma
 https://www.figma.com/file/yskvS8PQ9VBzCO0TlafZlG/Untitled?node-id=1%3A2
+https://lizaburenok.github.io/banksy22/
