@@ -256,6 +256,14 @@ text-transform: uppercase;
   position: relative;
 }
 
+.works_menu{
+  margin-top: 100px;
+  width: 50%;
+  display: flex;
+  transform: scale(2);
+  flex-direction: column;
+}
+
 .works__p1,
 .works__p2,
 .works__p3,
@@ -285,25 +293,21 @@ text-transform: uppercase;
 .works__p1{
   left: -30%;
   top: -10%;
-  color: #000;
 }
 
 .works__p2{
-  left: -20%;
-  top: 30%;
+  left: -10%;
+
 }
 .works__p3{
-  left: 5%;
+  left: 10%;
 }
 .works__p4{
-left: 40%;
-background-color: pink;
+left: 30%;
+
 }
 .works__p5{
-
-}
-.works__p6{
-
+left: 50%;
 }
 
 .works__header {
